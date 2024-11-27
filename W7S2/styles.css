@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a7e1d0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  input, select, textarea, button {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  textarea {
+    height: 60px;
+    resize: none;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  .first-name , .last-name , .email , .password , .confirm-password , .gender , .hobbies , .income , .profile-picture , .age , .bio , .submit {
+      color:#45a049
+  }
